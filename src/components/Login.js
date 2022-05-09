@@ -10,7 +10,7 @@ function Login(){
         console.log(user_email.current.value);
         console.log(user_password.current.value);
         if(user_email.current.value === "akash9753@gmail.com" && user_password.current.value === "akash123"){
-            navigate("/dashboard")
+            navigate("/dashboard?uname=akash9753&upwd=akash123")
         }else{
             navigate("/error")
         }
